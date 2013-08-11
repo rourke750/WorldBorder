@@ -45,7 +45,7 @@ public class Config
 	private static boolean dynmapEnable = true;
 	private static String dynmapMessage;
 	private static int remountDelayTicks = 0;
-	private static boolean killplayer= false;
+	private static boolean killplayer = false;
 
 	// for monitoring plugin efficiency
 //	public static long timeUsed = 0;
