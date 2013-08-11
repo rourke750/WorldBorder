@@ -547,7 +547,7 @@ public class Config
 		cfg.set("remount-delay-ticks", remountDelayTicks);
 		cfg.set("dynmap-border-enabled", dynmapEnable);
 		cfg.set("dynmap-border-message", dynmapMessage);
-		cfg.set("Player-killed-bad-spawn", killplayer);
+		cfg.set("player-killed-bad-spawn", killplayer);
 
 		cfg.set("worlds", null);
 		Iterator world = borders.entrySet().iterator();
