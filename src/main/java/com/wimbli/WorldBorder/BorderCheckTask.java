@@ -133,7 +133,7 @@ public class BorderCheckTask implements Runnable
 			if (Config.Debug())
 				Config.LogWarn("Target new location unviable, using spawn or killing player.");
 			if (Config.getIfPlayerKill()){
-				player.setHealth(0);
+				player.setHealth(0.0);
 				return null;
 			}
 			newLoc = player.getWorld().getSpawnLocation();
