@@ -462,7 +462,7 @@ public class Config
 		dynmapEnable = cfg.getBoolean("dynmap-border-enabled", true);
 		dynmapMessage = cfg.getString("dynmap-border-message", "The border of the world.");
 		LogConfig("Using " + (ShapeName()) + " border, knockback of " + knockBack + " blocks, and timer delay of " + timerTicks + ".");
-		killplayer = cfg.getBoolean("Player-killed-bad-spawn", false);
+		killplayer = cfg.getBoolean("player-killed-bad-spawn", false);
 
 		StartBorderTimer();
 
